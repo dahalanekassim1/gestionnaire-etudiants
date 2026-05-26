@@ -1,0 +1,146 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(9, 96, 227);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contener {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+.contener2 {
+    border: 1PX solid #fff;
+    background: #fff;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.head {
+    line-height: 1.25;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+h2 {
+    padding-left: 2px;
+    margin-bottom: 1.5rem;
+}
+
+.grup {
+    background: #bcd2e4;
+    display: column;
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgb(6, 25, 51);
+}
+
+.champ {
+    width: 200px;
+    height: 2.5rem;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2px;
+    margin-top: 5px;
+}
+
+.button {
+    padding-left: 2px;
+    margin-top: 5px;
+}
+
+.btn {
+    border-radius: 5px;
+    text-align: center;
+    background: rgb(9, 96, 227);
+    color: #fff;
+    padding: 6px;
+    width: 7rem;
+    border: none;
+}
+
+.btn:hover {
+    background: rgb(7, 79, 186);
+    color: #fff;
+}
+
+.grup2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-grup {
+    background: rgb(9, 96, 227);
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: #fff;
+    width: 156px;
+    text-align: center;
+}
+
+.contenu {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.control {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+
+.control .option {
+    display: flex;
+}
+
+.control .option .btn2 {
+    border: none;
+    margin: 3px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 4.1rem;
+    color: black;
+    box-shadow: 0 0 2px rgb(6, 25, 51);
+}
+
+.control .option .op2 {
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.op2:hover {
+    color: #fff;
+}
+
+.btn2:hover {
+    background: rgb(7, 79, 186);
+}
+
+.option2 {
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    box-shadow: 0 0 2px rgb(6, 25, 51);
+}
+
+h3 {
+    margin-top: 2.6rem;
+    padding-left: 2px;
+}

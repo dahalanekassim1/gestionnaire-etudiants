@@ -1,7 +1,8 @@
 PROJET EN LICENCE_1
 
-NOM DU PROJET : GESTIONNAIRE DES ETUDIANTS
+NOM DU PROJET : GESTIONNAIRE DES ETUDIANTS.
 Il consitse a gérer et ajouter les notes des etudients.
+
 Competance appliquée HTML/CSS et JAVASCRIPT
 
 voici une image qui montre comment le resultat final va etre

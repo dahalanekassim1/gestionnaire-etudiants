@@ -1,3 +1,9 @@
+:root {
+    --blanc : #fff;
+    --blue-clair :  rgb(7, 79, 186);
+    --black : #141414;
+}
+
 *,
 *::after,
 *::before {
@@ -23,6 +29,7 @@ body {
     background: #fff;
     border-radius: 20px;
     padding: 15px;
+    width: 50%;
 }
 
 h1 {
@@ -31,7 +38,7 @@ h1 {
 
 .head {
     line-height: 1.25;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--black);
     text-align: center;
 }
 
@@ -41,19 +48,32 @@ h2 {
 }
 
 .grup {
-    background: #bcd2e4;
+    background: #e4e7ea;
     display: column;
-    margin-top: 15px;
+    margin-top: 20px;
     padding: 12px;
     border-radius: 5px;
     box-shadow: 0 0 2px rgb(6, 25, 51);
 }
 
+.input {
+    display: flex;
+    flex-direction: row;
+}
+.input input {
+    border: 1px solid var(--blue-clair);
+}
+.input input:focus {
+    border: 1px solid var(--blue-clair);
+    box-shadow: 0 0 10px var(--blue-clair);
+    transition: all .6s;
+}
+
 .champ {
-    width: 200px;
+    width: 320px;
     height: 2.5rem;
-    padding: 5px;
-    border: 1px solid black;
+    padding: 10px;
+    border: 1px solid var(--black);
     border-radius: 5px;
     margin: 2px;
     margin-top: 5px;
@@ -68,15 +88,16 @@ h2 {
     border-radius: 5px;
     text-align: center;
     background: rgb(9, 96, 227);
-    color: #fff;
-    padding: 6px;
-    width: 7rem;
+    color: var(--blanc);
+    padding: 10px;
+    width: 8rem;
     border: none;
 }
 
 .btn:hover {
     background: rgb(7, 79, 186);
-    color: #fff;
+    color: var(--blanc);
+    transition: all .6s;
 }
 
 .grup2 {
@@ -86,24 +107,28 @@ h2 {
 
 .form-grup {
     background: rgb(9, 96, 227);
-    padding: 15px;
+    padding: 25px;
     border-radius: 5px;
     margin-top: 15px;
-    color: #fff;
-    width: 156px;
+    color: var(--blanc);
+    width: 200px;
     text-align: center;
+}
+
+.grup2 span {
+    font-size: 20px;
 }
 
 .contenu {
     display: block;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    margin-top: .5rem;
 }
 
 .control {
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
-
 }
 
 .control .option {
@@ -115,7 +140,7 @@ h2 {
     margin: 3px;
     border-radius: 5px;
     padding: 5px;
-    width: 4.1rem;
+    width: 5rem;
     color: black;
     box-shadow: 0 0 2px rgb(6, 25, 51);
 }
@@ -126,11 +151,12 @@ h2 {
 }
 
 .op2:hover {
-    color: #fff;
+    color: var(--blanc);
 }
 
 .btn2:hover {
-    background: rgb(7, 79, 186);
+    background: var(--blue-clair);
+    transition: all .9s;
 }
 
 .option2 {
@@ -141,6 +167,7 @@ h2 {
 }
 
 h3 {
-    margin-top: 2.6rem;
+    margin-top: 3.6rem;
     padding-left: 2px;
+    min-height: 4rem;
 }

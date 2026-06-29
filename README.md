@@ -6,4 +6,5 @@ Il consitse a gérer, ajouter et filtrer les notes des etudients.
 Competance appliquée HTML/CSS et JAVASCRIPT
 
 voici une image qui montre comment le resultat final va etre
-<img width="1631" height="876" alt="image" src="https://github.com/user-attachments/assets/3cf98d85-1903-4016-b3d0-fd0d041b0f60" />
+<img width="987" height="725" alt="image" src="https://github.com/user-attachments/assets/99e8a5b3-0a2c-494e-ba66-31689a027841" />
+

@@ -1,4 +1,6 @@
-**NOM DU PROJET :** #GESTIONNAIRE DES ETUDIANTS. | Réalisé en 1ere année
+# GESTIONNAIRE DES ETUDIANTS
+
+**NOM DU PROJET :** GESTIONNAIRE DES ETUDIANTS. | Réalisé en 1ere année
 
 Il consite a gérer, ajouter ou supprimer un etudiant.
 Et il permet de voir le nombre d'étudiant ajoutée(s), Recalé(s), et Admis
@@ -8,7 +10,7 @@ voici une image qui montre comment le resultat
 
 ---
 
-##Competance appliquée
+## Competance appliquée
 
   **HTML5/CSS et JAVASCRIPT**
 

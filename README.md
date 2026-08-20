@@ -1,10 +1,16 @@
-PROJET EN LICENCE_1
+# GESTIONNAIRE DES ÉTUDIANTS
 
-NOM DU PROJET : GESTIONNAIRE DES ETUDIANTS.
-Il consitse a gérer, ajouter et filtrer les notes des etudients.
+**NOM DU PROJET :** GESTIONNAIRE DES ÉTUDIANTS | Réalisé en 1ère année
 
-Competance appliquée HTML/CSS et JAVASCRIPT
+Il consiste à gérer, ajouter ou supprimer un étudiant.  
+Et il permet de voir le nombre d'étudiants ajoutés, recalés et admis.
 
-voici une image qui montre comment le resultat final va etre
-<img width="987" height="725" alt="image" src="https://github.com/user-attachments/assets/99e8a5b3-0a2c-494e-ba66-31689a027841" />
+Voici une image qui montre le résultat :  
+<img width="1090" height="810" alt="image" src="https://github.com/user-attachments/assets/a7fc504f-cd1a-4098-a280-5f5d85d88a81" />
 
+---
+
+## Compétences appliquées
+
+* **HTML5 / CSS**
+* **JavaScript**

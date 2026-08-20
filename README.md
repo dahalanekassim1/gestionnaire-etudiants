@@ -12,7 +12,8 @@ voici une image qui montre comment le resultat
 
 ## Competance appliquée
 
-  **HTML5/CSS et JAVASCRIPT**
+  **HTML5/CSS**
+  **JAVASCRIPT**
 
 
 

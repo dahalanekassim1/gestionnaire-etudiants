@@ -3,7 +3,7 @@
 Il consite a gérer, ajouter ou supprimer un etudiant.
 Et il permet de voir le nombre d'étudiant ajoutée(s), Recalé(s), et Admis
 
-voici une image qui montre comment le resultat final va etre
+voici une image qui montre comment le resultat 
 <img width="1090" height="810" alt="image" src="https://github.com/user-attachments/assets/a7fc504f-cd1a-4098-a280-5f5d85d88a81" />
 
 ---

@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etudiants</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"> -->
 </head>
 
 <body>
     <div class="contener">
+
         <div class="contener2">
+
             <div class="head">
                 <h1 class="title">Gestionnaire d'etudiants</h1>
                 <p>Ajoutez, filtrez et gerez les notes de vos étudiants</p>
             </div>
+
             <div class="grup">
                 <h2>Ajouter un étudiant</h2>
                 <div class="input">
@@ -25,33 +27,37 @@
                 </div>
 
                 <div class="button">
-                    <button class="btn">Ajouter <i class="bi bi-file-earmark-person"></i></button>
+                    <button class="btn" type="button" onclick="AjouterEtudiant()">Ajouter <i
+                            class="bi bi-file-earmark-person"></i></button>
                 </div>
             </div>
 
             <div class="grup2">
-                <div class="form-grup"><span>Total étudiants</span><strong class="contenu">0</strong></div>
-                <div class="form-grup"><span>Moyenne classe</span><strong class="contenu">00.00</strong></div>
-                <div class="form-grup"><span>Admis</span><strong class="contenu">0</strong></div>
-                <div class="form-grup"><span>Recalés</span><strong class="contenu">0</strong></div>
-            </div>
-
-            <div class="control">
-                <div class="option">
-                    <button class="btn2"><span class="op2">Tous</span></button>
-                    <button class="btn2"><span class="op2">Admis</span></button>
-                    <button class="btn2"><span class="op2">Recalés</span></button>
+                <div class="form-grup"><span>Total étudiants</span><strong class="contenu" id="totalEt">0</strong></div>
+                <div class="form-grup"><span>Moyenne classe</span><strong class="contenu" id="moyClasse">00.00</strong>
                 </div>
-                <select class="option2">
-                    <option value="">Ordre d'ajout</option>
-                    <option value="">Nom : croissant</option>
-                    <option value="">Nom : décroissant</option>
-                </select>
+                <div class="form-grup"><span>Admis</span><strong class="contenu" id="etAdmis">0</strong></div>
+                <div class="form-grup"><span>Recalés</span><strong class="contenu" id="etRecale">0</strong></div>
             </div>
 
             <h3>Liste des étudiants</h3>
-            <div class="list"></div>
+
+              <table class="tableau_etudiant">
+            <thead class="table">
+                <tr>
+                    <th>Nom</th>
+                    <th>Prenom</th>
+                    <th>Note</th>
+                    <th>Statut</th>
+                </tr>
+            </thead>
+            <tbody id="list">
+            
+            </tbody>
+           </table>
+
         </div>
+
     </div>
 
     <script src="./assets/js/script.js"></script>
